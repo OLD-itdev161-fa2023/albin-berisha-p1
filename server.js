@@ -1,13 +1,18 @@
 const express = require('express');
 const dotenv = require('dotenv');
 
+// Route files
+const resortcamps = require('../albin-berisha-p1/routes/resortcamps');
+
 // Load env vars
 dotenv.config({ path: "./config/config.env"});
 
 const app = express();
 
-const PORT = process.env.PORT || 5000;
+// Mount routers
+app.use('/api/v1/resortcamps', resortcamps);
 
+const PORT = process.env.PORT || 5000;
 
 app.listen(
     PORT, 
