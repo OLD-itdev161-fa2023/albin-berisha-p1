@@ -2,7 +2,8 @@
 
 # Project Description
 
-My final project for this class will be creating a simple search engine website for the resorts here in Wisconsin. For project one, I'm implementing the following:
+My final project for this class will be creating a simple search engine website for the resorts here in Wisconsin. 
+For project one, I'm implementing the following:
 
 - Four endpoints in the API,
 - NodeJS Express Server backend,
